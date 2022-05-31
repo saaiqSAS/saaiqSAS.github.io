@@ -164,6 +164,10 @@
     margin: auto;
 	vertical-align: middle;
 	}
+
+	button:hover {
+	background: #080808;
+	}
 	
 	a {
 	text-decoration: none;
