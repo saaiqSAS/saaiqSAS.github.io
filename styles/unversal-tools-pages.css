@@ -1,0 +1,113 @@
+.toolBigBox {
+	width: 100%;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	background-color: #202020;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.toolBigBoxHeading {
+	font-size: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.toolBigBoxImage {
+	display:block;
+    margin:auto;
+	width: 100%;
+	border: none;
+}
+
+.toolBigBoxMainInfoBox {
+	width: 80%;
+	background-color: #050505;
+	margin: 0px auto;
+	padding: 15px;
+	text-align: left;
+}
+
+.toolBigBoxMainInfo {
+	font-size: 22px;
+}
+
+.toolBigBoxDownloadBox {
+	width: 80%;
+	background-color: #050505;
+	margin: 0px auto;
+	padding: 15px;
+	text-align: center;
+}
+
+.toolBigBoxDownloadButton {
+	width: 90%;
+	font-size: 25px;
+	color: #050505;
+	background-color: #909090;
+	border: 3px solid #909090;
+	text-align: center;
+	margin: 10px auto;
+	padding: 15px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.toolBigBoxDownloadButton:hover {
+	transform: scale(1.05);
+	background-color: #050505;
+	color: #909090;
+}
+
+.releaseBox {
+	width: 400px;
+	background-color: #000000;
+	border: 3px solid #909090;
+	margin: 10px auto;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.releaseBoxHeading {
+	width: 100%;
+	border-bottom: 3px solid #909090;
+	padding-bottom: 10px;
+	margin: 10px auto;
+	font-size: 35px;
+}
+
+.releaseBoxInfo {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.releaseBoxButton {
+	width: 80%;
+	font-size: 25px;
+	color: #909090;
+	background-color: #000000;
+	border: 3px solid #909090;
+	text-align: center;
+	margin: 10px auto;
+	padding: 15px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.releaseBoxButton:hover {
+	transform: scale(1.05);
+	background-color: #909090;
+	color: #000000;
+}
