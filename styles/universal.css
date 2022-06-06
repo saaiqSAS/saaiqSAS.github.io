@@ -24,8 +24,6 @@ main {
 .footer {
         width: 95%;
 	text-align: right;
-	bottom: 0;
-	position: fixed;
 }
 
 a {
