@@ -21,6 +21,10 @@ main {
 	margin-right: 10px;
 }
 
+footer {
+	float: right;
+}
+
 a {
 	text-decoration: none;
 	color: #909090;
