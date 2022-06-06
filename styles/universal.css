@@ -21,8 +21,11 @@ main {
 	margin-right: 10px;
 }
 
-footer {
-	float: right;
+.footer {
+        width: 100%;
+	text-align: right;
+	bottom: 0;
+	position: absolute;
 }
 
 a {
