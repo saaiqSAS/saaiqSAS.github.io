@@ -31,6 +31,14 @@ a {
 	color: #909090;
 }
 
+.redirectText {
+	text-decoration: underline;
+}
+
+.redirectText:hover {
+	color: #757575;
+}
+
 /*---navigation Bar---*/
 #navBar {
 	background-color: #151515;
