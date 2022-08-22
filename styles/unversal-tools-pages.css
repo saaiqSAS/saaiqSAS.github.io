@@ -111,3 +111,13 @@
 	background-color: #909090;
 	color: #000000;
 }
+
+.smallhref {
+	color: #909090;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.smallhref:hover {
+	color: #757575;
+}
