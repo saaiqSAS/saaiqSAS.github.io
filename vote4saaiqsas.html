@@ -114,7 +114,7 @@
 			<hr id="serparator"/>
 			
 			<p id="enterPass"> Enter The Password Below</p>
-			<p id="incorrectPass"></p>
+			<p id="incorrectPass (Hint: Reverse)"></p>
 			<input id="passInput"/>
 			
 			<Button id="confirm" onclick="checkPassword()" >Check Password</Button>
@@ -135,7 +135,7 @@
 		
 		var inputPass = document.getElementById("passInput").value;
 		
-		if (inputPass == "VOTEforSaaiq$@$") {
+		if (inputPass == "$@$qiaaSrofETOV") {
 		window.location.replace('tools/secretMessege_CtfFlag.html');
 		} else {
 		document.getElementById("incorrectPass").innerHTML = "Incorrect Password";
