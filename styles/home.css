@@ -21,12 +21,14 @@
 
 .newsPara {
 	font-size: 20px;
+	font-family: 'Courier New', monospace;
 	margin: 20px 10px;
 }
 
 .newsPoints {
 	margin: 10px 35px;
 	font-size: 20px;
+	font-family: 'Courier New', monospace;
 }
 
 .bigBox {
@@ -68,6 +70,8 @@
 .smallBoxDescription {
 	height: 180px;
 	font-size: 20px;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
 	padding-top: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
