@@ -32,6 +32,7 @@
 
 .toolBigBoxMainInfo {
 	font-size: 22px;
+	font-family: 'Courier New', monospace;
 }
 
 .toolBigBoxDownloadBox {
@@ -85,12 +86,15 @@
 
 .releaseBoxInfo {
 	font-size: 20px;
+	font-family: 'Courier New', monospace;
 	padding: 10px;
 }
 
 .releaseBoxButton {
 	width: 80%;
 	font-size: 25px;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
 	color: #909090;
 	background-color: #000000;
 	border: 3px solid #909090;
@@ -115,6 +119,7 @@
 .smallhref {
 	color: #909090;
 	font-size: 15px;
+	font-family: 'Courier New', monospace;
 	text-decoration: none;
 }
 
