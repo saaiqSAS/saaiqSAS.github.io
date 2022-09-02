@@ -78,6 +78,11 @@
 		font-size: 30px;
 		}
 		
+		
+		#point {
+		text-align: center;
+		color: #ffffff;
+		font-size: 30px;
 		}
 		
 		
@@ -112,14 +117,18 @@
 			<h1 id="redHead" ><b>Malikuruaa House Captain</b></h1> 
 			
 			<hr id="serparator"/>
+			
 			<p style="font-size:28px;color:#FEDD00;text-align:center">Special Thanks To <b>Yooh</b>, <b>Dhaai</b> and <b>Fareez</b> For Their Contribution</p>
-			<hr id="serparator"/>	
+			<hr id="serparator"/>
 			
-			<p id="enterPass"> Enter The Password Below</p>
-			<p id="incorrectPass"></p>
-			<input id="passInput"/>
+			<p id="enterPass"><b><i> ! The Duration For This CTF Challange Is Now Over !</i></b></p>
+			<p id="point"><b>Password:</b> $@$qIaaSrofETOV </p>
+			<p id="point"><b>Secret Message:</b> I love SAS and I support Saaiq </p>
+			<hr id="serparator"/>
 			
-			<Button id="confirm" onclick="checkPassword()" >Check Password</Button>
+			<p id="redHead">LEADER BOARDS</p>
+			<p id="enterPass" style="font-size:40px;"><b style="font-size:45px;color:#FEDD00;text-align:center"> 1st Place: </b> Dhaai Abdulla Nashith</p>
+			<p style="text-align:center;font-size:20px">(Date/Time Of Completion: Monday, August 29th, 2022 at 9:21 PM)</p>
 				
 			</main>
 		</body>
@@ -130,21 +139,5 @@
 			      <p>© 2022 saaiqSAS</p>
                         </div>
 		</footer>
-		
-		<script type="text/javascript">
-		
-		function checkPassword() {
-		
-		var inputPass = document.getElementById("passInput").value;
-		
-		if (inputPass == "$@$qIaaSrofETOV") {
-		window.location.replace('tools/secretMessege_CtfFlag.html');
-		} else {
-		document.getElementById("incorrectPass").innerHTML = "Incorrect Password (Hint: Reverse)";
-		}
-		
-		}
-		
-		</script>
 		
 	</html>
