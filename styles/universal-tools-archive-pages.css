@@ -33,11 +33,14 @@
 .releaseBoxInfo {
 	font-size: 20px;
 	padding: 10px;
+	font-family: 'Courier New', monospace;
 }
 
 .releaseBoxButton {
 	width: 80%;
 	font-size: 25px;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
 	color: #909090;
 	background-color: #000000;
 	border: 3px solid #909090;
