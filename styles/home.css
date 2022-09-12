@@ -1,3 +1,13 @@
+#homePageLogoBox {
+	width: 99%;
+	margin: 5% auto;
+	item-align: center;
+}
+
+#homePageLogo {
+	width: 100%;
+}
+
 #newsBox {
 	width: 100%;
 	padding-bottom: 10px;
