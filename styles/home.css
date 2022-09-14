@@ -4,8 +4,9 @@
 		width: 76%;
 		margin: 8% 12%;
 		opacity: 0;
+		transform: translate(0px,80px);
 		animation-name: homePageLogoAnimation;
-		animation-duration: 5s;
+		animation-duration: 4s;
 		animation-delay: 0.25s;
 		animation-iteration-count: 1;
 		animation-fill-mode: forwards;
@@ -18,8 +19,9 @@
 		width: 76%;
 		margin: 12% 12%;
 		opacity: 0;
+		transform: translate(0px,80px);
 		animation-name: homePageLogoAnimation;
-		animation-duration: 5s;
+		animation-duration: 4s;
 		animation-delay: 0.25s;
 		animation-iteration-count: 1;
 		animation-fill-mode: forwards;
@@ -32,8 +34,9 @@
 		width: 76%;
 		margin: 15% 12%;
 		opacity: 0;
+		transform: translate(0px,80px);
 		animation-name: homePageLogoAnimation;
-		animation-duration: 5s;
+		animation-duration: 4s;
 		animation-delay: 0.25s;
 		animation-iteration-count: 1;
 		animation-fill-mode: forwards;
@@ -47,9 +50,14 @@
 @keyframes homePageLogoAnimation {
 	0%{
 		opacity: 0;
+		transform: translate(0px,80px);
+	}
+	50% {
+		transform: translate(0px,0px);
 	}
 	100% {
 		opacity: 1;
+		transform: translate(0px,0px);
 	}
 }
 
