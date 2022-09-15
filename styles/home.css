@@ -147,5 +147,5 @@
 }
 
 .smallBox:hover {
-	transform: scale(1.07);
+	transform: matrix(1.05,0,0,1.05,0,-15);
 }
