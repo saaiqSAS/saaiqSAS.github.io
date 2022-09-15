@@ -69,13 +69,13 @@ hr {
 	width: 100%;
 	height: 75px;
 	transform: translate(0px,-80px);
-	animation-name: naBarAnimation;
+	animation-name: navBarAnimation;
 	animation-duration: 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
 
-@keyframes naBarAnimation {
+@keyframes navBarAnimation {
 	0%{
 		transform: translate(0px,-80px);
 	}
