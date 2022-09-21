@@ -1,3 +1,64 @@
+@media screen and (orientation:portrait) {
+	
+    #homePageLogoBox {
+		width: 76%;
+		margin: 92% 12%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation:portrait)  {
+	
+    #homePageLogoBox {
+		width: 76%;
+		margin: 65% 12%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-height: 1200px) and (orientation:portrait)  {
+	
+    #homePageLogoBox {
+		width: 76%;
+		margin: 55% 12%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+}
+
+@media screen and (min-width: 800px) and (min-height: 1200px) and (orientation:portrait)  {
+	
+    #homePageLogoBox {
+		width: 76%;
+		margin: 65% 12%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+}
+
+
 @media screen and (max-height: 720px) {
 	
     #homePageLogoBox {
