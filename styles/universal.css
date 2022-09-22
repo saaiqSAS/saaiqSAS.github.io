@@ -60,6 +60,16 @@ hr {
 	width: 95%;
 }
 
+::-moz-selection {
+  color: #000000;
+  background: #aaaaaa;
+}
+
+::selection {
+  color: #000000;
+  background: #aaaaaa;
+}
+
 /*---navigation Bar---*/
 #navBar {
 	background-color: #151515;
