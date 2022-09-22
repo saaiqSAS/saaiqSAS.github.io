@@ -118,32 +118,27 @@
 	align-items: center;
 	background-color: #050505;
 	-webkit-transition: all 1s ease;
-    	-moz-transition: all 1s ease;
-    	-o-transition: all 1s ease;
+   	-moz-transition: all 1s ease;
+   	-o-transition: all 1s ease;
    	-ms-transition: all 1s ease;
    	transition: all 1s ease;
 	transition-duration: 0.5s;
 	cursor: pointer;
-	border-left: 1px solid #aaaaaa;
-	border-right: 1px solid #aaaaaa;
 }
 
 .smallBoxImg {
-	width: 400px;
-	border-top: 1px solid #aaaaaa;
-	border-bottom: 1px solid #aaaaaa;
+	width: 350px;
+	margin-top: 15px;
 }
 
 .smallBoxDescription {
-	height: 180px;
+	height: 150px;
 	font-size: 20px;
 	font-weight: normal;
-	padding-top: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
 	background-color: #050505;
 	align-items: center;
-	border-bottom: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	padding: 10% 9%;
 }
 
 .smallBox:hover {
