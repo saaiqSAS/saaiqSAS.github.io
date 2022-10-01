@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> SAS STE Web - Online Encryption Tool | saaiqSAS </title>
+			<link rel="shortcut icon" href="../../imgs/favicon.ico" type="image/x-icon" />
+			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
+		</head>
+		
+		<link rel="stylesheet" href="../../styles/universal.css"/>
+		<link rel="stylesheet" href="sas-ste-web.css"/>
+
+		
+		<body>
+			<header>
+				<nav id="navBar">
+					<a href="../../index.html">
+						<div id="logoDiv">
+							<p id="logo">saaiq<b>SAS</b></p>
+							
+						</div>
+					</a>
+					<a href="../../index.html">
+						<div class="navBut">
+							<p> Home </p>
+						</div>
+					</a>
+					
+					<a href="https://github.com/saaiqSAS">
+						<div class="navBut" id="githubMain">
+							<p> GitHub </p>
+						</div>
+					</a>
+					
+				</nav>
+			</header>
+			<main>
+				<p id="heading">SAS STE Web</p>
+				<p id="version"> v3.0.0</p>
+				<hr/>
+				
+				<div id="mainBox">
+					<br/>
+					<p class="description"> <b>SAS STE Web</b> is a web based encryption tool which uses the SAS STE encryption 
+					algorithm with the default static keys and limited features. To make the best out of the
+					the SAS STE algorithm and to get access to all features please download an official 
+					release from the <a class="href" href="../../tools/sas-ste.html">SAS STE page.</a></p>
+					
+					<p class="description">Please follow the flow of the boxes below selecting and giving input as per your needs. </p>
+				</div>
+				<hr/>
+				<div id="mainBox">	
+					<!-- ----------------------------- Function Boxes ----------------------------- !--> 
+					
+					<!-- 1. Function Encrypt !-->
+					<div class="smallBox" id="functionBoxEncrypt">
+						<p class="smallBoxHeading">Function Type - Encrypt</p>
+						
+						<div class="twoGrid">
+							<p class="typeSelecterActive" onclick="onClickFunctionTypeEncrypt()" >Encrypt</p>
+							<p class="typeSelecter" onclick="onClickFunctionTypeDecrypt()">Decrypt</p>
+						</div>
+						
+					</div>
+					
+					<!-- 2. Function Decrypt !-->
+					<div class="smallBox" id="functionBoxDecrypt">
+						<p class="smallBoxHeading">Function Type - Decrypt</p>
+						
+						<div class="twoGrid">
+							<p class="typeSelecter" onclick="onClickFunctionTypeEncrypt()" >Encrypt</p>
+							<p class="typeSelecterActive" onclick="onClickFunctionTypeDecrypt()" >Decrypt</p>
+						</div>
+						
+					</div>
+					
+					<!-- ----------------------------- Encrypt Key Boxes ----------------------------- !-->
+					
+					<!-- 1. Encrypt New Key !-->
+					<div class="smallBox" id="encryptNewKeyBox">
+						<p class="smallBoxHeading">Key - Encrypt: New Key</p>
+						
+						<div class="threeGrid">
+							<p class="typeSelecterActive" onclick="onClickKeyEncryptNewKey()" >New Key</p>
+							<p class="typeSelecter" onclick="onClickKeyEncryptExistingKey()">Existing Key</p>
+							<p class="typeSelecter" onclick="onClickKeyEncryptNoKey()">No Key</p>
+						</div>
+						
+						<hr class="smallBoxSeparator"/>
+						
+						<p class="smallBoxText">Select The Amount Of Times To Encrypt</p>
+						
+						<div class="fiveGrid">
+							<p class="radioButton" id="encryptAmountOne" onclick="setEncryptAmountOne()" >1</p>
+							<p class="radioButtonActive" id="encryptAmountOneActive" onclick="setEncryptAmountOne()" >1</p>
+							
+							<p class="radioButton" id="encryptAmountTwo" onclick="setEncryptAmountTwo()">2</p>
+							<p class="radioButtonActive" id="encryptAmountTwoActive" onclick="setEncryptAmountTwo()">2</p>
+							
+							<p class="radioButton" id="encryptAmountThree" onclick="setEncryptAmountThree()">3</p>
+							<p class="radioButtonActive" id="encryptAmountThreeActive" onclick="setEncryptAmountThree()">3</p>
+							
+							<p class="radioButton" id="encryptAmountFour" onclick="setEncryptAmountFour()">4</p>
+							<p class="radioButtonActive" id="encryptAmountFourActive" onclick="setEncryptAmountFour()">4</p>
+							
+							<p class="radioButton" id="encryptAmountFive" onclick="setEncryptAmountFive()">5</p>
+							<p class="radioButtonActive" id="encryptAmountFiveActive" onclick="setEncryptAmountFive()">5</p>
+							
+						</div>
+		
+						<p class="keyDisplayArea" id="keyDisplayAreaKeyGen"> Generated Key Display Area </p>
+				
+						<div class="button" onclick="generateKey()">
+							<p> Generate Key </p>
+						</div>
+					</div>
+					
+					<!-- 2. Encrypt Existing Key !-->
+					<div class="smallBox" id="encryptExistingKeyBox">
+						<p class="smallBoxHeading">Key - Encrypt: Existing Key</p>
+						
+						<div class="threeGrid">
+							<p class="typeSelecter" onclick="onClickKeyEncryptNewKey()" >New Key</p>
+							<p class="typeSelecterActive" onclick="onClickKeyEncryptExistingKey()">Existing Key</p>
+							<p class="typeSelecter" onclick="onClickKeyEncryptNoKey()">No Key</p>
+						</div>
+						
+						<hr class="smallBoxSeparator"/>
+						
+						<p class="smallBoxText">Enter The Existing Key Below</p>
+						<p class="smallBoxError" id="keyFormatErrorExistingKey">Error!! Incorrect Key Format</p>
+						<p class="smallBoxPositive" id="keyAcceptedExistingKey">Key Accepted</p>
+						
+						<textarea onchange="confirmExistingKey()" placeholder="Input Existing Key Here" name="text" wrap="soft" maxlength="112" class="keyInputArea" id="keyInputAreaExistingKey"></textarea>
+
+						<div class="button" onclick="confirmExistingKey()">
+							<p> Confirm </p>
+						</div>
+						
+					</div>
+					
+					<!-- 3. Encrypt No Key !-->
+					<div class="smallBox" id="encryptNoKeyBox">
+						<p class="smallBoxHeading">Key - Encrypt: No Key</p>
+						
+						<div class="threeGrid">
+							<p class="typeSelecter" onclick="onClickKeyEncryptNewKey()" >New Key</p>
+							<p class="typeSelecter" onclick="onClickKeyEncryptExistingKey()">Existing Key</p>
+							<p class="typeSelecterActive" onclick="onClickKeyEncryptNoKey()">No Key</p>
+						</div>
+						
+						<hr class="smallBoxSeparator"/>
+						
+						<p class="smallBoxText">Your Data Will Be Processed By Using Only The Static Keys</p>
+						
+					</div>
+					
+					<!-- ----------------------------- Decrypt Key Boxes ----------------------------- !-->
+					
+					<!-- 1. Decrypt Keyed !-->
+					<div class="smallBox" id="decryptKeyedBox">
+						<p class="smallBoxHeading">Key - Decrypt: Keyed</p>
+						
+						<div class="twoGrid">
+							<p class="typeSelecterActive" onclick="onClickKeyDecryptKeyed()" >Keyed</p>
+							<p class="typeSelecter" onclick="onClickKeyDecryptNoKey()" >No Key</p>
+						</div>
+						
+						<hr class="smallBoxSeparator"/>
+						
+						<p class="smallBoxText">Enter The Key Below</p>
+						<p class="smallBoxError" id="keyFormatErrorKeyed">Error!! Incorrect Key Format</p>
+						<p class="smallBoxPositive" id="keyAcceptedKeyed">Key Accepted</p>
+						
+						<textarea onchange="confirmKeyed()" placeholder="Input Key Here" name="text" wrap="soft" maxlength="112" class="keyInputArea" id="keyInputAreaKeyed"></textarea>
+
+						<div class="button" onclick="confirmKeyed()">
+							<p> Confirm </p>
+						</div>
+						
+					</div>
+					
+					<!-- 2. Decrypt No Key !-->
+					<div class="smallBox" id="decryptNoKeyBox">
+						<p class="smallBoxHeading">Key - Decrypt: No Key</p>
+						
+						<div class="twoGrid">
+							<p class="typeSelecter" onclick="onClickKeyDecryptKeyed()" > Keyed</p>
+							<p class="typeSelecterActive" onclick="onClickKeyDecryptNoKey()" >No Key</p>
+						</div>
+						
+						<hr class="smallBoxSeparator"/>
+						
+						<p class="smallBoxText">Your Data Will Be Processed By Using Only The Static Keys</p>
+						
+					</div>
+					
+					<!-- ----------------------------- Input Boxes ----------------------------- !-->
+					
+					<div class="smallBox">
+						<p class="smallBoxHeading">Input</p>
+						
+						<textarea placeholder="Input Text Here " name="text" wrap="soft" class="inputArea" id="textInput"></textarea>
+						
+					</div>
+					
+					<!-- ----------------------------- Output Boxes ----------------------------- !-->
+					
+					<div class="smallBox">
+						<p class="smallBoxHeading">Output</p>
+						
+						<textarea placeholder="Output Area" name="text" wrap="soft" class="inputArea" id="textOutput"></textarea>
+						
+					</div>
+					
+					<!-- ----------------------------- Process ----------------------------- !-->
+					
+					<p id="processError"></p>
+					
+					<div id="processButton" onclick="process()">
+							<p> Process </p>
+					</div>
+					
+					<div  id="processButtonProcessing" onclick="">
+							<p> Processing... </p>
+					</div>
+					
+					<!-- ----------------------------- Logs ----------------------------- !-->
+					<div  class="logButton" id="showLogsButton" onclick="showLogs()">
+							<p> Show Logs </p>
+					</div>
+						
+					<div id="logBox">
+						<div  class="logButton" onclick="closeLogs()">
+							<p> Close Logs </p>
+						</div>
+						
+						<p id="logs"> Logs Will Be Displayed Here </p>
+						
+						<div  class="logButton" onclick="closeLogs()">
+							<p> Close Logs </p>
+						</div>
+					</div>
+					
+				</div>
+			</main>
+			<script type="text/javascript" src="sas-ste-web.js"></script>
+		</body>
+		<footer>
+            <div class="footer">
+			    </br>
+			    </br>
+			    <p>© 2022 saaiqSAS</p>
+            </div>
+		</footer>
+	</html>
