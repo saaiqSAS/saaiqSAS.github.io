@@ -14,11 +14,45 @@
 	text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+	.releaseBoxHolderM2C {
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		margin: 30px auto;
+	}
+	
+	.releaseBoxHolder2C {
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 30px auto;
+	}
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+	.releaseBoxHolderM2C {
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 30px auto;
+	}
+	
+	.releaseBoxHolder2C {
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 30px auto;
+	}
+    
+}
+
 .releaseBox {
-	width: 400px;
+	width: 350px;
 	background-color: #000000;
 	border: 3px solid #aaaaaa;
-	margin: 10px auto;
+	margin: 40px auto;
 	text-align: center;
 	padding-bottom: 10px;
 }
