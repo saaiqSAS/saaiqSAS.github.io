@@ -70,9 +70,18 @@
 	color: #aaaaaa;
 }
 
+@media screen and (min-width: 1100px) {
+	.releaseBoxHolder {
+		width: 100%;
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 30px auto;
+	}
+    
+}
+
 .releaseBox {
 	width: 400px;
-	background-color: #000000;
 	border: 3px solid #aaaaaa;
 	margin: 10px auto;
 	text-align: center;
