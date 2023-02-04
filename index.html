@@ -10,34 +10,31 @@
 		<link rel="stylesheet" href="styles/home.css"/>
 		
 		<body>
-			<header>
-				<nav id="navBar">
-					<a href="index.html">
-						<div id="logoDiv">
-							<p id="logo">saaiq<b>SAS</b></p>
-							
-						</div>
+			<div id="homePageIntroBox">
+				<header>
+					<a href >
+						<p id="homeGithub">GitHub</p>
 					</a>
-					<a href="index.html">
-						<div class="navBut">
-							<p> Home </p>
+				</header>
+				
+				<div id="homePageLogoBoxHolder">
+					<div id="homePageLogoBox">
+						<img id="homePageText"src="imgs/all-text.png"/>
+						</br>
+						</br>
+						<div id="homePageIMBox">
+							<img id="homePageIM"src="imgs/im1.png"/>
 						</div>
-					</a>
+					</div>
 					
-					<a href="https://github.com/saaiqSAS">
-						<div class="navBut" id="githubMain">
-							<p> GitHub </p>
-						</div>
-					</a>
-					
-				</nav>
-			</header>
-			<main>
-				<div id="homePageLogoBox">
-					<img id="homePageLogo"src="imgs/saaiqSAS-OfficialWebsite-HomeLogo-NoBackground.png"/>
+					<div id="homePageMeBox">
+						<img id="homePageMe"src="imgs/me.png"/>
+					</div>
 				</div>
 				<hr/>
-				
+			</div>
+			
+			<main>
 				<h2 id="newsBoxHeading"> Latest News </h2>
 				
 					<div id="newsBox">
@@ -91,4 +88,19 @@
 			    <p>© 2023 saaiqSAS</p>
             </div>
 		</footer>
+		
+		<script type="text/javascript">
+		
+		var imNum = 1;
+		setInterval(changeIM, 3200);
+		
+		function changeIM() {
+			document.getElementById("homePageIM").src = "imgs/im"+imNum+".png";
+			
+			if (imNum >= 6) {
+			imNum = 0;
+			}
+			imNum++;
+		}
+		</script>
 	</html>
