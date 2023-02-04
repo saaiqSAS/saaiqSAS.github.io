@@ -7,7 +7,7 @@
 #homeGithub {
 	font-size: 22px;
 	font-weight: 100;
-	width: 97%;
+	margin: 20px 35px 0px 0px;
 	text-align: right;
 	transform: translate(0px,-100px);
 	animation-name: navBarAnimationHome;
