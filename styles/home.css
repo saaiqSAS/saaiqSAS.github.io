@@ -1,50 +1,280 @@
-@media screen and (max-height: 720px) {
-	
-    #homePageLogoBox {
-		width: 76%;
-		margin: 8% 12%;
-		opacity: 0;
-		transform: translate(0px,80px);
-		animation-name: homePageLogoAnimation;
-		animation-duration: 4s;
-		animation-delay: 0.25s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
-	}
-}
-
-@media screen and (min-height: 720px) and (max-height: 800px) {
-	
-    #homePageLogoBox {
-		width: 76%;
-		margin: 12% 12%;
-		opacity: 0;
-		transform: translate(0px,80px);
-		animation-name: homePageLogoAnimation;
-		animation-duration: 4s;
-		animation-delay: 0.25s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
-	}
-}
-
-@media screen and (min-height: 800px) and (max-height: 2000px) {
-	
-    #homePageLogoBox {
-		width: 76%;
-		margin: 15% 12%;
-		opacity: 0;
-		transform: translate(0px,80px);
-		animation-name: homePageLogoAnimation;
-		animation-duration: 4s;
-		animation-delay: 0.25s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
-	}
-}
-
-#homePageLogo {
+#homePageIntroBox {
 	width: 100%;
+	background-color: #121212;
+	padding: 6px 0px;
+}
+
+#homeGithub {
+	font-size: 22px;
+	font-weight: 100;
+	width: 97%;
+	text-align: right;
+	transform: translate(0px,-100px);
+	animation-name: navBarAnimationHome;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	-webkit-transition: all 0.3s ease;
+   	-moz-transition: all 0.3s ease;
+   	-o-transition: all 0.3s ease;
+   	-ms-transition: all 0.3s ease;
+   	transition: all 0.3s ease;
+}
+
+#homeGithub:hover {
+	color: #FFFFFF;
+}
+
+@keyframes navBarAnimationHome {
+	0%{
+		transform: translate(0px,-100px);
+		opacity: 0;
+	}
+	50% {
+		transform: translate(0px,0px);
+		opacity: 0.4;
+	}
+	100% {
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+}
+
+@media screen and (max-height: 720px) and (min-width: 801px) {
+	
+	#homePageLogoBoxHolder {
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 5% 10%;
+	}
+	
+    #homePageLogoBox {
+		width: 355px;
+		margin: 10% 5%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	 #homePageIMBox {
+		width: 400px;
+		margin: 50px none;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.70s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMeBox {
+		margin: 8% 30%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 2s;
+		animation-delay: 0.50s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMe {
+		height: 350px;
+		opacity: 0;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+}
+
+@media screen and (min-height: 720px) and (max-height: 800px) and (min-width: 801px) {
+	
+	#homePageLogoBoxHolder {
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 4% 12%;
+	}
+	
+    #homePageLogoBox {
+		width: 400px;
+		margin: 12% 0%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	 #homePageIMBox {
+		width: 450px;
+		margin: 50px none;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 2s;
+		animation-delay: 0.70s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMeBox {
+		margin: 8% 35%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.50s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMe {
+		height: 400px;
+		opacity: 0;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+}
+
+@media screen and (min-height: 800px) and (min-width: 801px) {
+	
+	#homePageLogoBoxHolder {
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 6% 6% 10% 6%;
+	}
+	
+    #homePageLogoBox {
+		width: 400px;
+		margin: 12% 10%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	 #homePageIMBox {
+		width: 450px;
+		margin: 50px none;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 2s;
+		animation-delay: 0.70s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMeBox {
+		margin: 8% 40%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.50s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMe {
+		height: 400px;
+		opacity: 0;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+}
+
+@media screen and (max-width: 800px) and (max-height: 750px) {
+	
+    #homePageLogoBox {
+		width: 370px;
+		margin: 25% 5% 50% 5%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMe {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) and (min-height: 750px) {
+	
+    #homePageLogoBox {
+		width: 370px;
+		margin: 55% 5% 100% 5%;
+		opacity: 0;
+		transform: translate(0px,80px);
+		animation-name: homePageLogoAnimation;
+		animation-duration: 4s;
+		animation-delay: 0.25s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	
+	#homePageMe {
+		display: none;
+	}
+}
+
+#homePageText {
+	width: 100%;
+}
+
+#homePageIM {
+	width: 90%;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#homePageIM:hover {
+	box-shadow: 0px 7px 0px 0px #00ffff;
+}
+
+#homePageMe:hover {
+	animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+	opacity: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 @keyframes homePageLogoAnimation {
