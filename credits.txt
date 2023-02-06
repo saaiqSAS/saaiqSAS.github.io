@@ -4,10 +4,13 @@
 
 Structure:
   > (https://saaiqsas.github.io/imgs/all-text.png) adjustments recommended - By A***
-  
+
 Fonts:
   > Ananda Font - By Billy Argel Fonts (www.billyargel.com)
   > Ink Free Font - By  Mr. Steve Matteson
-  > Arial Font - By Robin Nicholas, Patricia Saunders
-  
+  > Arial Font - By Robin Nicholas , Patricia Saunders
+
+Ideas/Inspiration:
+  > Giving credit to fonts idea - By Y*** (https://sfyd4.github.io)
+  > Home page introduction part inspirations - By D**** (https://sfyd4.github.io/) , A***
   
