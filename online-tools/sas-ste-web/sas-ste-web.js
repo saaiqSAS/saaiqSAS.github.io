@@ -139,6 +139,21 @@ function setEncryptAmountOne() {
 	
 	encryptAmountFive.style.display = "block";
 	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
 }
 
 function setEncryptAmountTwo() {
@@ -158,6 +173,21 @@ function setEncryptAmountTwo() {
 	
 	encryptAmountFive.style.display = "block";
 	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
 }
 
 function setEncryptAmountThree() {
@@ -177,6 +207,21 @@ function setEncryptAmountThree() {
 	
 	encryptAmountFive.style.display = "block";
 	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
 }
 
 function setEncryptAmountFour() {
@@ -196,6 +241,21 @@ function setEncryptAmountFour() {
 	
 	encryptAmountFive.style.display = "block";
 	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
 }
 
 function setEncryptAmountFive() {
@@ -215,12 +275,197 @@ function setEncryptAmountFive() {
 	
 	encryptAmountFive.style.display = "none";
 	encryptAmountFiveActive.style.display = "block";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
+}
+
+function setEncryptAmountSix() {
+	encryptAmount = 6;
+	
+	encryptAmountOne.style.display = "block";
+	encryptAmountOneActive.style.display = "none";
+	
+	encryptAmountTwo.style.display = "block";
+	encryptAmountTwoActive.style.display = "none";
+	
+	encryptAmountThree.style.display = "block";
+	encryptAmountThreeActive.style.display = "none";
+	
+	encryptAmountFour.style.display = "block";
+	encryptAmountFourActive.style.display = "none";
+	
+	encryptAmountFive.style.display = "block";
+	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "none";
+	encryptAmountSixActive.style.display = "block";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
+}
+
+function setEncryptAmountSeven() {
+	encryptAmount = 7;
+	
+	encryptAmountOne.style.display = "block";
+	encryptAmountOneActive.style.display = "none";
+	
+	encryptAmountTwo.style.display = "block";
+	encryptAmountTwoActive.style.display = "none";
+	
+	encryptAmountThree.style.display = "block";
+	encryptAmountThreeActive.style.display = "none";
+	
+	encryptAmountFour.style.display = "block";
+	encryptAmountFourActive.style.display = "none";
+	
+	encryptAmountFive.style.display = "block";
+	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "none";
+	encryptAmountSevenActive.style.display = "block";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
+}
+
+function setEncryptAmountEight() {
+	encryptAmount = 8;
+	
+	encryptAmountOne.style.display = "block";
+	encryptAmountOneActive.style.display = "none";
+	
+	encryptAmountTwo.style.display = "block";
+	encryptAmountTwoActive.style.display = "none";
+	
+	encryptAmountThree.style.display = "block";
+	encryptAmountThreeActive.style.display = "none";
+	
+	encryptAmountFour.style.display = "block";
+	encryptAmountFourActive.style.display = "none";
+	
+	encryptAmountFive.style.display = "block";
+	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "none";
+	encryptAmountEightActive.style.display = "block";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
+}
+
+function setEncryptAmountNine() {
+	encryptAmount = 9;
+	
+	encryptAmountOne.style.display = "block";
+	encryptAmountOneActive.style.display = "none";
+	
+	encryptAmountTwo.style.display = "block";
+	encryptAmountTwoActive.style.display = "none";
+	
+	encryptAmountThree.style.display = "block";
+	encryptAmountThreeActive.style.display = "none";
+	
+	encryptAmountFour.style.display = "block";
+	encryptAmountFourActive.style.display = "none";
+	
+	encryptAmountFive.style.display = "block";
+	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "none";
+	encryptAmountNineActive.style.display = "block";
+	
+	encryptAmountTen.style.display = "block";
+	encryptAmountTenActive.style.display = "none";
+}
+
+function setEncryptAmountTen() {
+	encryptAmount = 10;
+	
+	encryptAmountOne.style.display = "block";
+	encryptAmountOneActive.style.display = "none";
+	
+	encryptAmountTwo.style.display = "block";
+	encryptAmountTwoActive.style.display = "none";
+	
+	encryptAmountThree.style.display = "block";
+	encryptAmountThreeActive.style.display = "none";
+	
+	encryptAmountFour.style.display = "block";
+	encryptAmountFourActive.style.display = "none";
+	
+	encryptAmountFive.style.display = "block";
+	encryptAmountFiveActive.style.display = "none";
+	
+	encryptAmountSix.style.display = "block";
+	encryptAmountSixActive.style.display = "none";
+	
+	encryptAmountSeven.style.display = "block";
+	encryptAmountSevenActive.style.display = "none";
+	
+	encryptAmountEight.style.display = "block";
+	encryptAmountEightActive.style.display = "none";
+	
+	encryptAmountNine.style.display = "block";
+	encryptAmountNineActive.style.display = "none";
+	
+	encryptAmountTen.style.display = "none";
+	encryptAmountTenActive.style.display = "block";
 }
 
 function generateKey() {
 	generatedKey = "$STE::"; // Key reset
 	
-	generatedKey += Math.floor(Math.random() * 3); //L0Type
+	generatedKey += Math.floor(Math.random() * 5); //L0Type
 	generatedKey += Math.floor(Math.random() * 6); //L2Assign
 	
 	var randCharset = defaultCharSet;
@@ -751,6 +996,36 @@ function encryptL0() {
               sNum++;
             }
 	        break;
+			
+		  case 3:
+	        if (sNum > 3) {
+	          sNum = 1;
+            }
+	        if (sNum == 2 || sNum == 3) {
+			  layer0p1out += processChar[i];
+	          layer0p1out += randChar;
+	          
+	          sNum++;
+            } else if (sNum == 1) {
+              layer0p1out += processChar[i];
+              sNum++;
+            }
+	        break;
+			
+		  case 4:
+	        if (sNum > 3) {
+	          sNum = 1;
+            }
+	        if (sNum == 1 || sNum == 3) {
+			  layer0p1out += processChar[i];
+	          layer0p1out += randChar;
+	          
+	          sNum++;
+            } else if (sNum == 2) {
+              layer0p1out += processChar[i];
+              sNum++;
+            }
+	        break;
         }
       }
       
@@ -814,6 +1089,30 @@ function decryptL0() {
                 sNum = 1;
               }
               if (sNum == 2 || sNum == 3 || sNum == 5) {
+                layer0out += layer0p1outChar[i];
+              }
+              sNum++;
+            }
+	        break;
+			
+		  case 3:
+	        for (let i = 0; i < layer0p1outChar.length; i++) {
+              if (sNum > 5) {
+                sNum = 1;
+              }
+              if (sNum == 1 || sNum == 2 || sNum == 4) {
+                layer0out += layer0p1outChar[i];
+              }
+              sNum++;
+            }
+	        break;
+			
+		  case 4:
+	        for (let i = 0; i < layer0p1outChar.length; i++) {
+              if (sNum > 5) {
+                sNum = 1;
+              }
+              if (sNum == 1 || sNum == 3 || sNum == 4) {
                 layer0out += layer0p1outChar[i];
               }
               sNum++;
