@@ -217,6 +217,7 @@ body {
 	text-align: center;
 	font-size: 18px;
 	background-color: #404040;
+	border: solid 3px #606060;
 	
 	-webkit-user-select: none;       
 	-moz-user-select: none;
@@ -241,7 +242,7 @@ body {
 	height: 28px;
 	width: 37px;
 	padding: 7px 0px 0px 0px;
-	margin: 0px auto;
+	margin: 2px auto;
 	text-align: center;
 	font-size: 18px;
 	background-color: #303030;
@@ -510,6 +511,27 @@ body {
 #encryptAmountFiveActive {
 	display: none;
 }
+
+#encryptAmountSixActive {
+	display: none;
+}
+
+#encryptAmountSevenActive {
+	display: none;
+}
+
+#encryptAmountEightActive {
+	display: none;
+}
+
+#encryptAmountNineActive {
+	display: none;
+}
+
+#encryptAmountTenActive {
+	display: none;
+}
+
 
 #keyFormatErrorExistingKey {
 	display: none;
