@@ -2,15 +2,54 @@
   CREDITS - THIS FILE GIVES CREDITS WHERE IT IS DUE
 =====================================================
 
-Structure:
-  > (https://saaiqsas.github.io/imgs/all-text.png) adjustments recommended - By A***
+==========================
 
+CONTENTS:
+  1- SAS Official Website
+  2- SAS-STE
+  3- openTendance
+
+==========================
+
+------------------------
+1- SAS Official Website
+------------------------
+
+Structure:
+  > (saaiqsas.github.io/imgs/all-text.png) adjustments recommended - By A***
+
+Support:
+  > Giving credit to fonts idea - By Yooh Amir (sfyd4.github.io)
+  > Home page "introduction/portfolio area" related inspirations - By D**** (sfyd4.github.io) , A***
+  
 Fonts:
   > Ananda Font - By Billy Argel Fonts (www.billyargel.com)
   > Ink Free Font - By  Mr. Steve Matteson
   > Arial Font - By Robin Nicholas , Patricia Saunders
-
-Ideas/Inspirations:
-  > Giving credit to fonts idea - By Y*** (https://sfyd4.github.io)
-  > Home page "introduction/portfolio area" related inspirations - By D**** (https://sfyd4.github.io/) , A***
   
+======================
+
+-----------
+2- SAS-STE
+-----------
+Documentation:
+  > First documentation proof reading - By Yooh Amir (sfyd4.github.io)
+  
+Testing of Releases:
+  > By Yooh Amir (sfyd4.github.io)
+  > By Ali Shaheen
+  
+======================
+
+----------------
+3- openTendance  
+----------------
+Support:
+  > Decision making help provided - By Yooh Amir (sfyd4.github.io)
+  > Help provided in choosing theme color - By Aulam 
+  
+======================
+  
+=====================================================
+                     END OF FILE                      
+=====================================================
