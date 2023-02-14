@@ -44,6 +44,9 @@ Testing of Releases:
 ----------------
 3- openTendance  
 ----------------
+
+  > Full project idea - By Rakesh
+
 Support:
   > Decision making help provided - By Yooh Amir (sfyd4.github.io)
   > Help provided in choosing theme color - By Aulam 
