@@ -1,0 +1,9 @@
+#editorArea {
+	background-color: #000000;
+	color: #AAAAAA;
+	font-size: 16px;
+	min-width: 100%;
+	min-height: 90vh;
+	border: none;
+	outline: none;
+}
