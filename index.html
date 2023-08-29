@@ -18,24 +18,6 @@
 						<p id="saaiqSAS">saaiqSAS</p>
 						<div id="saaiqSAS_underline"></div>
 						<p id="saaiqSAS_skills">DEVELOPER</p>
-						
-						<script type="text/javascript">
-						
-						// Skills
-						
-						const skillText = document.getElementById('saaiqSAS_skills');
-						const skills = ["JAVA DEV", "ANDROID DEV", "WEB DEV", "DESIGNER", "ANIMATOR", "WHITE HAT", "CARPENTER" , "DEVELOPER"];
-						let currentIndex = 0;
-
-						function changeSkill() {
-						  skillText.textContent = skills[currentIndex];
-						  currentIndex = (currentIndex + 1) % skills.length;
-						}
-
-						setInterval(changeSkill, 3000);
-						
-						</script>
-						
 					</div>
 				</div>
 				<div id="homePageSeperatorBox">
@@ -154,6 +136,19 @@
 		
 		
 		<script type="text/javascript">
+		
+		// Skills
+						
+		const skillText = document.getElementById('saaiqSAS_skills');
+		const skills = ["JAVA DEV", "ANDROID DEV", "WEB DEV", "DESIGNER", "ANIMATOR", "WHITE HAT", "CARPENTER" , "DEVELOPER"];
+		let currentIndex = 0;
+
+		function changeSkill() {
+		  skillText.textContent = skills[currentIndex];
+		  currentIndex = (currentIndex + 1) % skills.length;
+		}
+
+		setInterval(changeSkill, 2000);
 		
 		// Scroll To Projects
 
