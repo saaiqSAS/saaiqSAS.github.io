@@ -22,7 +22,7 @@
 	font-size: 70px;
 	font-family: 'JetBrainsMono-ExtraBold';
 	margin: 0;
-    padding: 0;
+    	padding: 0;
 	border-right: 10px solid #9900CC;
 	overflow: hidden;
 	animation: typewriter .75s steps(16) forwards,
@@ -42,7 +42,7 @@
 	capitalize: true;
 	color: #CCCCCC;
 	font-size: 22px;
-	animation: skills 3s infinite;
+	/*animation: skills 3s infinite;*/
 }
 
 #homePageSeperatorBox {
