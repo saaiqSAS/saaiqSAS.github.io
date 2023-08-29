@@ -15,18 +15,9 @@ CONTENTS:
 1- SAS Official Website
 ------------------------
 
-Structure:
-  > (saaiqsas.github.io/imgs/all-text.png) adjustments recommended - By Ayah
-
-Support:
-  > Giving credit to fonts idea - By Yooh Amir (sfyd4.github.io)
-  > Home page "introduction/portfolio area" related inspirations - By Dhaai (sfyd4.github.io) , Ayah
-  
 Fonts:
-  > Ananda Font - By Billy Argel Fonts (www.billyargel.com)
-  > Ink Free Font - By  Mr. Steve Matteson
-  > Arial Font - By Robin Nicholas , Patricia Saunders
-  
+  > JetBrains Mono - By JetBrains (https://www.jetbrains.com/lp/mono/)
+
 ======================
 
 -----------
