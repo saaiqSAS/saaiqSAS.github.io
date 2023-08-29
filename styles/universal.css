@@ -1,15 +1,4 @@
-/*
--------------
-   colors
--------------
-black: #000000 (page background)
-gray: #151515 (navBar background)
-	  #aaaaaa (navBar border)
-	  #aaaaaa (default text)
-	  
-*/
 
-/*---overall page---*/
 body {
 	background-color: #E6E6E6;
 	color: #FFFFFF;
@@ -266,15 +255,29 @@ hr {
 	border-radius: 70px;
 }
 
-.container_description_dark_background {
-	margin:20px;
-	padding:70px;
+.container_description_top {
+	padding: 50px 90px 10px 90px;
 	font-size: 18px;
 	color: #E6E6E6;
 	background-color: #000000;
 	border-radius: 70px;
 }
 
+.container_description_center {
+	padding:0px 90px 10px 90px;
+	font-size: 18px;
+	color: #E6E6E6;
+	background-color: #000000;
+	border-radius: 70px;
+}
+
+.container_description_bottom {
+	padding:0px 90px 90px 90px;
+	font-size: 18px;
+	color: #E6E6E6;
+	background-color: #000000;
+	border-radius: 70px;
+}
 
 .footer_container {
 	background-color: #000000;
@@ -361,6 +364,19 @@ hr {
 		padding-top:70px;
 		padding-bottom:70px;
 	}
+	
+	.container_description_top {
+		padding: 50px 15px 10px 15px;
+	}
+
+	.container_description_center {
+		padding:0px 15px 10px 15px;
+	}
+
+	.container_description_bottom {
+		padding:0px 15px 90px 15px;
+	}
+	
 	
 	.right_container {
 	width: calc(100% - 20px);
