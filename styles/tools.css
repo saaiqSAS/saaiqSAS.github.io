@@ -1,0 +1,67 @@
+
+.releases_listing {
+	width: 350px;
+	height: 500px;
+	border: 6px solid #E6E6E6;
+	border-radius: 70px;
+	margin: 40px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.releases_listing_heading {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0px;
+	border-bottom: 6px solid #E6E6E6;
+	font-size: 30px;
+	font-family: 'JetBrainsMono-ExtraBold';
+	text-align: center;
+}
+
+.releases_listing_description {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.releases_listing_download {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'JetBrainsMono-ExtraBold';
+	text-align: center;
+}
+
+.releases_listing_button {
+	width: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 20px auto;
+	border: 3px solid #E6E6E6;
+	border-radius: 70px;
+	font-size: 20px;
+	text-align: center;
+	-webkit-transition: all 0.2s ease;
+    	-moz-transition: all 0.2s ease;
+    	-o-transition: all 0.2s ease;
+    	-ms-transition: all 0.2s ease;
+    	transition: all 0.2s ease;
+}
+
+.releases_listing_button:hover {
+	color: #373737;
+	background-color: #E6E6E6;
+}
+
+.releases_listing_older_versions {
+	font-size: 14px;
+	
+}
+
+.releases_listing_older_versions:hover {
+	font-size: 14px;
+	color: #9900CC;
+}

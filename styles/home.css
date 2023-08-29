@@ -1,0 +1,192 @@
+
+
+#homePageHeader {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+
+#homePageIntroBox {
+	background-color: #000000;
+	width: 50%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: left; /* Horizontally center content */
+	align-items: center; /* Vertically center content */
+}
+
+#saaiqSAS {
+	font-size: 70px;
+	font-family: 'JetBrainsMono-ExtraBold';
+	margin: 0;
+    padding: 0;
+	border-right: 10px solid #9900CC;
+	overflow: hidden;
+	animation: typewriter .75s steps(16) forwards,
+	typewriter-curser 1s step-end infinite;
+	
+	
+}
+
+#saaiqSAS_underline {
+	background-color: #9900CC;
+	width: 250px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+#saaiqSAS_skills {
+	capitalize: true;
+	color: #CCCCCC;
+	font-size: 22px;
+	animation: skills 3s infinite;
+}
+
+#homePageSeperatorBox {
+	background-color: #505050;
+	width: 10%;
+	height: 100vh;
+	border-radius: 0px 0px 70px 0px;
+}
+
+#homePageNavBox {
+	width: 40%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#homePageNavBoxMobile {
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#homePageButtonsBox {
+	width: 60%;
+}
+
+.homePageButtons {
+	width: 100%;
+	padding: 8px 15px 8px 15px;
+	font-size: 28px;
+	margin: 20px 0px 20px 0px;
+	font-family: 'JetBrainsMono-Regular';
+	color: #000000;
+	text-align: center;
+	border: 3px solid #000000;
+	border-radius: 100px;
+	-webkit-transition: all 0.2s ease;
+    	-moz-transition: all 0.2s ease;
+    	-o-transition: all 0.2s ease;
+    	-ms-transition: all 0.2s ease;
+    	transition: all 0.2s ease;
+	
+}
+
+.homePageButtons:hover {
+	background-color: #000000;
+	color: #E6E6E6;
+	
+}
+
+#projects_color_bar {
+	background-color: #9999FF;
+}
+
+#onsite_tools_color_bar {
+	background-color: #FFFF00;
+}
+
+.toolsListing {
+	width: 300px;
+	height: 400px;
+	background-color: #505050;
+	margin: 50px 50px;
+	border-radius: 70px;
+	overflow: hidden;
+	border: 4px solid #505050;
+	text-align: center;
+	-webkit-transition: all 0.2s ease;
+    	-moz-transition: all 0.2s ease;
+    	-o-transition: all 0.2s ease;
+    	-ms-transition: all 0.2s ease;
+    	transition: all 0.2s ease;
+}
+
+.toolsListing:hover {
+	box-shadow: 2px 36px 79px -4px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 2px 36px 79px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 36px 79px -4px rgba(0,0,0,0.75);
+	transform: translate(0px,-15px);
+	background-color: #606060;
+	border: 4px solid #606060;
+}
+
+.toolsListingImageBox {
+	height: 200px;
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.toolsListingImage {
+	margin-top:10px;
+	width: 100%;
+	
+}
+
+.toolsListingDescriptionBox {
+	padding: 10px;
+}
+
+
+/*Individual listings*/
+#tools_SAS_STE {
+	background-color: #232323;
+}
+
+#tools_Raajjefonts {
+	background-color: #FBF8F3;
+}
+
+/* Mobile */
+@media screen and (min-width: 900px) {
+	#homePageNavBoxMobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#homePageIntroBox {
+	width: 60%;
+	}
+	
+	#homePageNavBox {
+	display: none;
+	}
+	
+	#saaiqSAS {
+	font-size: 50px;
+	}
+
+	#saaiqSAS_underline {
+		width: 200px;
+		height: 10px;
+	}
+
+	#saaiqSAS_skills {
+		font-size: 18px;
+	}
+}
+
+
+
+
+

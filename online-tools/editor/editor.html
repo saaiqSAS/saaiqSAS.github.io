@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Text Editor | saaiqSAS </title>
+			<link data-default-icon="../../imgs/favicon.png" rel="icon" sizes="192x192" href="../../imgs/favicon.png" />
+			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
+			<meta charset="utf-8">
+
+		</head>
+		
+		<link rel="stylesheet" href="../../styles/fonts.css"/>
+		<link rel="stylesheet" href="../../styles/universal.css"/>
+		<link rel="stylesheet" href="../../styles/tools.css"/>
+		<link rel="stylesheet" href="editor.css"/>
+
+		
+		<body>
+			<div id="navigationBar">
+						<a href="../../index.html">
+							<div id="nav_saaiqSASBox">
+								<p id="nav_saaiqSAS">saaiqSAS</p>
+								<div id="nav_saaiqSAS_underline"></div>
+							</div>
+						</a>
+						
+						<div id="nav_buttons_box">
+							<a href="../../about_me.html">
+								<p class="nav_buttons"> About_Me </p>
+							</a>
+							
+							<a href="../../index.html#projects">
+								<p class="nav_buttons"> Projects </p>
+							</a>
+							
+							<a href="https://github.com/saaiqSAS">
+								<p class="nav_buttons"> GitHub </p>
+							</a>
+						</div>
+					</div>
+			<main>
+			
+				<div class="center_container">
+					<p class="container_heading" id="wizard">Text Editor</p>
+					<div class="container_heading_underline" style="background-color: #99FFFF"></div>
+					
+					<div id="toolBar">
+						<input type="text" id="saveFile" value="default.txt"/>
+						<button id="saveButton" onclick="saveToFile()">Save</button>
+					</div>
+					
+					<textarea id="editor" onchange="save()"></textarea>
+					<p id="version">v1.0.1</p>
+					
+				</div>
+			</main>
+			
+			<script type="text/javascript" src="editor.js"></script>
+			
+			<footer>
+				<div class="footer_container">
+					<p>Copyrights (©) 2023 saaiqSAS</p>
+				</div>
+			</footer>
+		</body>
+		
+	</html>

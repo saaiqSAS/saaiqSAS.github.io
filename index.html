@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> saaiqSAS Official Website </title>
+			<link data-default-icon="imgs/favicon.png" rel="icon" sizes="192x192" href="imgs/favicon.png" />
+			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
+			<meta charset="utf-8">
+		</head>
+		
+		<link rel="stylesheet" href="styles/fonts.css"/>
+		<link rel="stylesheet" href="styles/universal.css"/>
+		<link rel="stylesheet" href="styles/home.css"/>
+		
+		<body>
+			<header id="homePageHeader">
+				<div id="homePageIntroBox">
+					<div>
+						<p id="saaiqSAS">saaiqSAS</p>
+						<div id="saaiqSAS_underline"></div>
+						<p id="saaiqSAS_skills">DEVELOPER</p>
+					</div>
+				</div>
+				<div id="homePageSeperatorBox">
+					
+				</div>
+				<div id="homePageNavBox">
+					<div id="homePageButtonsBox">
+						<a href="about_me.html">
+							<p class="homePageButtons"> About_Me </p>
+						</a>
+						
+						<p class="homePageButtons" id="projects_button"> Projects </p>
+						
+						<a href="https://github.com/saaiqSAS">
+							<p class="homePageButtons"> GitHub </p>
+						</a>
+					</div>
+				</div>
+			</header>
+			
+			<main>
+			
+				<div id="homePageNavBoxMobile">
+					<div id="homePageButtonsBox">
+						<a href="about_me.html">
+							<p class="homePageButtons"> About_Me </p>
+						</a>
+						
+						<p class="homePageButtons" id="projects_button_Mobile"> Projects </p>
+						
+						<a href="https://github.com/saaiqSAS">
+							<p class="homePageButtons"> GitHub </p>
+						</a>
+					</div>
+				</div>
+				
+				<div class="right_container" id="projects">
+					<div class="container_color_bar" id="projects_color_bar"></div>
+					
+					<div class="container_view">
+						<div>
+							<p class="container_heading">Projects</p>
+							<div class="container_heading_underline" id="projects_color_bar"></div>
+						</div>
+						<div class="VariableGrid">
+						
+							<a href="tools/sas-ste.html">
+								<div class="toolsListing">
+									<div class="toolsListingImageBox" id="tools_SAS_STE">
+										<img src="imgs/SAS-STE.png" class="toolsListingImage"/>
+									</div>
+									<div class="toolsListingDescriptionBox">
+										<p> SAS-STE (SAS-Secure Text Encryption): A very secure and unique opensource text encryption algorithm developed and maintained by saaiqSAS </p>
+									</div>
+								</div>
+							</a>
+							
+							<a href="https://raajjefonts.github.io/">
+								<div class="toolsListing">
+									<div class="toolsListingImageBox" id="tools_Raajjefonts">
+										<img src="imgs/RaajjeFonts.png" class="toolsListingImage"/>
+									</div>
+									<div class="toolsListingDescriptionBox">
+										<p> A Maldivian fonts repository allowing easy access to the Maldivian fonts developed by aspiring individuals and groups at a single place.  </p>
+									</div>
+								</div>
+							</a>
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="left_container">
+					<div class="container_view">
+						<div>
+							<p class="container_heading">Onsite_Tools</p>
+							<div class="container_heading_underline" id="onsite_tools_color_bar"></div>
+						</div>
+						
+						<div class="VariableGrid">
+						
+							<a href="online-tools/sas-ste-web/sas-ste-web.html">
+								<div class="toolsListing">
+									<div class="toolsListingImageBox" id="tools_SAS_STE">
+										<img src="imgs/SAS-STE-Web.png" class="toolsListingImage"/>
+									</div>
+									<div class="toolsListingDescriptionBox">
+										<p> An online encryption tool powered by SAS-STE algorithm </p>
+									</div>
+								</div>
+							</a>
+							
+							<a href="online-tools/editor/editor.html">
+								<div class="toolsListing">
+									<div class="toolsListingImageBox" id="tools_SAS_STE">
+										<img src="imgs/Text-Editor.png" class="toolsListingImage"/>
+									</div>
+									<div class="toolsListingDescriptionBox">
+										<p> A simple online text editor allowing save to file function </p>
+									</div>
+								</div>
+							</a>
+							
+						</div>
+					</div>
+					
+					<div class="container_color_bar" id="onsite_tools_color_bar"></div>
+				</div>
+				
+				<div class="footer_container">
+					<p>Copyrights (©) 2023 saaiqSAS</p>
+				</div>
+				
+			</main>
+		</body>
+		
+		
+		<script type="text/javascript">
+		
+		// Skills
+		
+		const skillText = document.getElementById('saaiqSAS_skills');
+		const skills = ["JAVA DEV", "ANDROID DEV", "WEB DEV", "DESIGNER", "ANIMATOR", "WHITE HAT", "CARPENTER" , "DEVELOPER"];
+		let currentIndex = 0;
+
+		function changeSkill() {
+		  skillText.textContent = skills[currentIndex];
+		  currentIndex = (currentIndex + 1) % skills.length;
+		}
+
+		setInterval(changeSkill, 3000);
+		
+		
+		
+		// Scroll To Projects
+
+		const projects_button = document.getElementById('projects_button');
+		const projects_button_Mobile = document.getElementById('projects_button_Mobile');
+		const projects = document.getElementById('projects');
+
+		projects_button.addEventListener('click', () => {
+		  projects.scrollIntoView({ behavior: 'smooth' });
+		});
+		
+		projects_button_Mobile.addEventListener('click', () => {
+		  projects.scrollIntoView({ behavior: 'smooth' });
+		});
+		
+		</script>
+	</html>

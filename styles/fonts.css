@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'JetBrainsMono-Regular';
+  src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype'); /* Path to your TTF font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'JetBrainsMono-Regular';
+  src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'JetBrainsMono-ExtraBold';
+  src: url('../fonts/JetBrainsMono-ExtraBold.ttf') format('truetype'); /* Path to your TTF font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'JetBrainsMono-ExtraBold';
+  src: url('../fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
