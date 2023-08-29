@@ -253,6 +253,8 @@ hr {
 	color: #000000;
 	background-color: #E6E6E6;
 	border-radius: 70px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .container_description_top {
@@ -261,6 +263,8 @@ hr {
 	color: #E6E6E6;
 	background-color: #000000;
 	border-radius: 70px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .container_description_center {
@@ -269,6 +273,8 @@ hr {
 	color: #E6E6E6;
 	background-color: #000000;
 	border-radius: 70px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .container_description_bottom {
@@ -277,6 +283,8 @@ hr {
 	color: #E6E6E6;
 	background-color: #000000;
 	border-radius: 70px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .footer_container {
