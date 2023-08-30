@@ -61,7 +61,7 @@
 }
 
 #homePageNavBoxMobile {
-	margin-top: 60px;
+	margin-top: 0px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -161,6 +161,10 @@
 	#homePageNavBoxMobile {
 		display: none;
 	}
+
+	#homePageWallpaper_serperator_Mobile {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -183,6 +187,10 @@
 
 	#saaiqSAS_skills {
 		font-size: 18px;
+	}
+	
+	#homePageWallpaper_serperator {
+	display: none;
 	}
 }
 
