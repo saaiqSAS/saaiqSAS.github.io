@@ -22,7 +22,7 @@
 	font-size: 70px;
 	font-family: 'JetBrainsMono-ExtraBold';
 	margin: 0;
-    	padding: 0;
+    padding: 0;
 	border-right: 10px solid #9900CC;
 	overflow: hidden;
 	animation: typewriter .75s steps(16) forwards,
@@ -169,15 +169,16 @@
 
 @media screen and (max-width: 900px) {
 	#homePageIntroBox {
-	width: 60%;
+		width: 60%;
+		padding-right: 30px;
 	}
 	
 	#homePageNavBox {
-	display: none;
+		display: none;
 	}
 	
 	#saaiqSAS {
-	font-size: 50px;
+		font-size: 50px;
 	}
 
 	#saaiqSAS_underline {
@@ -187,6 +188,10 @@
 
 	#saaiqSAS_skills {
 		font-size: 18px;
+	}
+	
+	#homePageSeperatorBox {
+		width: 70px;
 	}
 	
 	#homePageWallpaper_serperator {
