@@ -490,13 +490,15 @@ hr {
 	}
 	
 	.right_container {
-	width: calc(100% - 20px);
-	margin: 0px 0px 0px 20px;
+		width: calc(100% - 20px);
+		margin: 0px 0px 0px 20px;
+		grid-template-columns: 70px calc(100% - 70px);
 	}
 
 	.left_container {
 		width: calc(100% - 20px);
 		margin: 0px 20px 0px 0px;
+		grid-template-columns: calc(100% - 70px) 70px;
 	}
 
 	.center_container {
