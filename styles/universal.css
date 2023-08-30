@@ -200,7 +200,6 @@ hr {
 }
 
 .right_container {
-	background-color: #000000;
 	width: calc(100% - 70px);
 	margin: 0px 0px 0px 70px;
 	border-radius: 70px 0px 0px 70px;
@@ -210,7 +209,6 @@ hr {
 }
 
 .left_container {
-	background-color: #000000;
 	width: calc(100% - 70px);
 	margin: 0px 70px 0px 0px;
 	border-radius: 0px 70px 70px 0px;
@@ -235,42 +233,42 @@ hr {
 
 .container_serperator_right_top {
 	width: 100%;
-	height: 70px;
+	height: 100%;
 	background-color: #E6E6E6;
 	border-radius: 0px 0px 70px 0px;
 }
 
 .container_serperator_right_bottom{
 	width: 100%;
-	height: 70px;
+	height: 100%;
 	background-color: #E6E6E6;
 	border-radius: 0px 70px 0px 0px;
 }
 
 .container_serperator_left_top {
 	width: 100%;
-	height: 70px;
+	height: 100%;
 	background-color: #E6E6E6;
 	border-radius: 70px 0px 0px 0px;
 }
 
 .container_serperator_left_bottom {
 	width: 100%;
-	height: 70px;
+	height: 100%;
 	background-color: #E6E6E6;
 	border-radius: 70px 0px 0px 0px;
 }
 
 .container_serperator_left_right_bottom {
 	width: 100%;
-	height: 70px;
+	height: 100%;
 	background-color: #E6E6E6;
 	border-radius: 70px 0px 70px 0px;
 }
 
 .container_serperator_right_left_bottom {
 	width: 100%;
-	height: 70px;
+	height: 100%;
 	background-color: #E6E6E6;
 	border-radius: 0px 70px 0px 70px;
 }
