@@ -225,11 +225,6 @@ hr {
 	overflow: hidden;
 }
 
-.container_serperator_background {
-	width: 100%;
-	height: 70px;
-}
-
 .container_color_bar {
 	background-color: #9900CC;
 	box-sizing: border-box;
