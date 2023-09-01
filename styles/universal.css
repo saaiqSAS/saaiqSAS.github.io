@@ -76,6 +76,14 @@ hr {
   background: #aaaaaa;
 }
 
+.link {
+	text-decoration: underline;
+}
+
+.link:hover {
+	color: #AAAAAA;
+}
+
 #navigationBar {
 	background-color: #000000;
 	width: calc(100% - 140px);
