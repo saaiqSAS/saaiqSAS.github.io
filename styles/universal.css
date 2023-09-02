@@ -10,14 +10,22 @@ body {
 	animation-fill-mode: forwards;
 	margin: 0;
     padding: 0;
+	background-image: linear-gradient(135deg, #e6e6e6 41.67%, #e6e6e6 41.67%, #e6e6e6 50%, #e6e6e6 50%, #e6e6e6 91.67%, #e6e6e6 91.67%, #e6e6e6 100%);
+	background-size: 33.94px 33.94px;
 }
 
 @keyframes bodyAnimation {
 	0%{
 		opacity: 0;
 	}
+	50% {
+		background-image: linear-gradient(135deg, #e6e6e6 41.67%, #e6e6e6 41.67%, #e6e6e6 50%, #e6e6e6 50%, #e6e6e6 91.67%, #e6e6e6 91.67%, #e6e6e6 100%);
+		background-size: 33.94px 33.94px;
+	}
 	100% {
 		opacity: 1;
+		background-image: linear-gradient(152deg, #e6e6e6 41.67%, #dddddd 41.67%, #dddddd 50%, #e6e6e6 50%, #e6e6e6 91.67%, #dddddd 91.67%, #dddddd 100%);
+		background-size: 51.12px 27.18px;
 	}
 }
 
@@ -67,12 +75,12 @@ hr {
 }
 
 ::-moz-selection {
-  color: #000000;
+  color: #151515;
   background: #aaaaaa;
 }
 
 ::selection {
-  color: #000000;
+  color: #151515;
   background: #aaaaaa;
 }
 
@@ -85,13 +93,16 @@ hr {
 }
 
 #navigationBar {
-	background-color: #000000;
+	background-color: #151515;
 	width: calc(100% - 140px);
 	margin: 0px 70px 0px 70px;
 	border-radius: 0px 0px 70px 70px;
 	overflow: hidden;
 	padding-top:10px;
 	padding-bottom:15px;
+	box-shadow: 0px 3px 29px -8px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 3px 29px -8px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 3px 29px -8px rgba(0,0,0,1);	
 
 }
 
@@ -128,7 +139,7 @@ hr {
 }
 
 .nav_buttons {
-	padding: 8px 15px 8px 15px;
+	padding: 8px 20px 8px 20px;
 	font-size: 18px;
 	margin: 0px;
 	font-family: 'JetBrainsMono-Regular';
@@ -145,7 +156,7 @@ hr {
 
 .nav_buttons:hover {
 	background-color: #E6E6E6;
-	color: #000000;
+	color: #151515;
 	
 }
 
@@ -157,6 +168,9 @@ hr {
 	padding-bottom:70px;
 	border-radius: 0px 0px 70px 70px;
 	overflow: hidden;
+	box-shadow: 0px 3px 29px -8px rgba(0,0,0,1) inset;
+	-webkit-box-shadow: 0px 3px 29px -8px rgba(0,0,0,1) inset;
+	-moz-box-shadow: 0px 3px 29px -8px rgba(0,0,0,1) inset;
 }
 
 .wallpaper_top_container_title {
@@ -212,7 +226,7 @@ hr {
 	margin: 0px 0px 0px 70px;
 	border-radius: 70px 0px 0px 70px;
 	display: grid;
-	grid-template-columns: 10% 90%;
+	grid-template-columns: 140px calc(100% - 140px);
 	overflow: hidden;
 }
 
@@ -221,12 +235,12 @@ hr {
 	margin: 0px 70px 0px 0px;
 	border-radius: 0px 70px 70px 0px;
 	display: grid;
-	grid-template-columns: 90% 10%;
+	grid-template-columns:calc(100% - 140px) 140px;
 	overflow: hidden;
 }
 
 .center_container {
-	background-color: #000000;
+	background-color: #151515;
 	width: calc(100% - 140px);
 	margin: 70px 70px 0px 70px;
 	border-radius: 70px 70px 70px 70px;
@@ -240,8 +254,9 @@ hr {
 }
 
 .container_view {
-	background-color: #000000;
+	background-color: #151515;
 	width:100%;
+	padding-bottom: 20px;
 }
 
 .container_heading {
@@ -265,7 +280,7 @@ hr {
 	margin:20px;
 	padding:70px;
 	font-size: 18px;
-	color: #000000;
+	color: #151515;
 	background-color: #E6E6E6;
 	border-radius: 70px;
 	text-align: justify;
@@ -277,7 +292,7 @@ hr {
 	padding:70px;
 	font-size: 18px;
 	color: #E6E6E6;
-	background-color: #000000;
+	background-color: #151515;
 	border-radius: 70px;
 	text-align: justify;
 	text-justify: inter-word;
@@ -287,7 +302,7 @@ hr {
 	padding: 50px 90px 10px 90px;
 	font-size: 18px;
 	color: #E6E6E6;
-	background-color: #000000;
+	background-color: #151515;
 	border-radius: 70px;
 	text-align: justify;
 	text-justify: inter-word;
@@ -298,7 +313,7 @@ hr {
 	margin: 0px;
 	font-size: 18px;
 	color: #E6E6E6;
-	background-color: #000000;
+	background-color: #151515;
 	border-radius: 70px;
 	text-align: justify;
 	text-justify: inter-word;
@@ -308,7 +323,7 @@ hr {
 	padding:0px 90px 90px 90px;
 	font-size: 18px;
 	color: #E6E6E6;
-	background-color: #000000;
+	background-color: #151515;
 	border-radius: 70px;
 	text-align: justify;
 	text-justify: inter-word;
@@ -319,7 +334,7 @@ hr {
 	font-size: 22px;
 	font-family:'JetBrainsMono-ExtraBold';
 	color: #E6E6E6;
-	background-color: #000000;
+	background-color: #151515;
 	border-radius: 70px;
 	text-align: left;
 }
@@ -329,13 +344,13 @@ hr {
 	margin: 0px;
 	font-size: 18px;
 	color: #E6E6E6;
-	background-color: #000000;
+	background-color: #151515;
 	border-radius: 70px;
 	text-align: left;
 }
 
 .footer_container {
-	background-color: #000000;
+	background-color: #151515;
 	width: calc(100% - 140px);
 	height: 100px;
 	margin: 70px 70px 0px 70px;
@@ -433,7 +448,7 @@ hr {
 	}
 
 	.container_description_center {
-		padding:0px 15px 10px 15px;
+		padding:0px 15px 25px 15px;
 	}
 
 	.container_description_bottom {
@@ -447,6 +462,10 @@ hr {
 	.container_description_points {
 		padding:0px 15px 5px 15px;
 		
+	}
+	
+	.wallpaper_top_container_title {
+		font-size: 80px;
 	}
 	
 	.right_container {
