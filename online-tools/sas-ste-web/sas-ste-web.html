@@ -277,8 +277,13 @@
 			<script type="text/javascript" src="sas-ste-web.js"></script>
 		</body>
 		<footer>
-            <div class="footer_container">
-				<p>Copyrights (©) 2024 saaiqSAS</p>
+           		<div class="footer_container">
+				<p id="copyrights">Copyrights (©) 2022-Present saaiqSAS</p>
 			</div>
 		</footer>
+		<script type="text/javascript">
+		// Copyrights
+			var currentYear = new Date().getFullYear();
+			document.getElementById('copyrights').textContent = "Copyrights (©) 2022-"+currentYear+" saaiqSAS";
+		</script>
 	</html>
