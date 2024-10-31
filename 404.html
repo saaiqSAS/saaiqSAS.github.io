@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Page Not Found | saaiqSAS</title>
+			<link data-default-icon="imgs/favicon.png" rel="icon" sizes="192x192" href="imgs/favicon.png" />
+			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
+			<meta charset="utf-8">
+		</head>
+		
+		<link rel="stylesheet" href="styles/fonts.css"/>
+		<link rel="stylesheet" href="styles/universal.css"/>
+		
+		<body>
+			<header id="navigationBar">
+				<a href="index.html">
+					<div id="nav_saaiqSASBox">
+						<p id="nav_saaiqSAS">saaiqSAS</p>
+						<div id="nav_saaiqSAS_underline"></div>
+					</div>
+				</a>
+				
+				<div id="nav_buttons_box">
+					<a href="about_me.html">
+						<p class="nav_buttons"> About_Me </p>
+					</a>
+					
+					<a href="index.html#projects">
+						<p class="nav_buttons"> Projects </p>
+					</a>
+					
+					<a href="https://github.com/saaiqSAS">
+						<p class="nav_buttons"> GitHub </p>
+					</a>
+				</div>
+			</header>
+			
+			<main>
+			
+				<div class="center_container" style="background-color: transparent; margin-top: 200px; margin-bottom: 400px;">
+					<p class="container_heading"  style="color: #202020" >Page Not Found</p>
+					<div class="container_heading_underline" style="background-color: #ff0000"></div>
+					<p id="time" style="background-color: transparent; color: #202020; text-align: center; margin-top:50px;">
+					The page you're looking for doesn't seem to exist. You'll be redirected to the home page in 5 seconds.
+					</p>						
+				</div>
+				
+				
+				<div class="footer_container" style="background-color: transparent;">
+					<p id = "copyrights" style="color: #202020;">Copyrights (©) 2022-Present saaiqSAS</p>
+				</div>
+				
+			</main>
+		</body>
+		
+		
+		<script type="text/javascript">
+		
+		// Copyrights
+			var currentYear = new Date().getFullYear();
+			document.getElementById('copyrights').textContent = "Copyrights (©) 2022-"+currentYear+" saaiqSAS";
+			
+			window.onload = function() {
+				let i = 5; 
+				function updateCountdown() {
+					if (i > 0) {
+						document.getElementById("time").textContent = 
+							"The page you're looking for doesn't seem to exist. You'll be redirected to the home page in " + i + " seconds.";
+						i--;
+						setTimeout(updateCountdown, 1000);
+					} else {
+						window.location.href = 'https://saaiqsas.github.io';
+					}
+				}
+				updateCountdown();
+			};
+		</script>
+	</html>
