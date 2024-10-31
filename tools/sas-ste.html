@@ -130,7 +130,7 @@
 				
 				
 				<div class="footer_container">
-					<p>Copyrights (©) 2024 saaiqSAS</p>
+					<p id="copyrights">Copyrights (©) 2022-Present saaiqSAS</p>
 				</div>
 				
 			</main>
@@ -138,6 +138,10 @@
 		
 		
 		<script type="text/javascript">
+		// Copyrights
+			var currentYear = new Date().getFullYear();
+			document.getElementById('copyrights').textContent = "Copyrights (©) 2022-"+currentYear+" saaiqSAS";
+			
 		// Scroll To Projects
 
 		const download_button = document.getElementById('download');
