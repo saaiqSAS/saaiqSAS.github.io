@@ -69,12 +69,33 @@
 }
 
 #homePageButtonsBox {
-	width: 60%;
+	width: 70%;
+	max-width: 70%;
+}
+
+.homePageIconsBox {
+	height: 40px;
+	margin: 40px auto;
+	width: 134px;
+	padding-left: 6px;
+	
+}
+
+.homePageIconsBox svg {
+	-webkit-transition: all 0.2s ease;
+    	-moz-transition: all 0.2s ease;
+    	-o-transition: all 0.2s ease;
+    	-ms-transition: all 0.2s ease;
+    	transition: all 0.2s ease;
+}
+
+.homePageIconsBox svg:hover {
+	transform: translate(0px,-10px);
 }
 
 .homePageButtons {
 	width: 100%;
-	padding: 8px 15px 8px 15px;
+	padding: 8px 0px 8px 0px;
 	font-size: 28px;
 	margin: 20px 0px 20px 0px;
 	font-family: 'JetBrainsMono-Regular';
@@ -93,6 +114,7 @@
 .homePageButtons:hover {
 	background-color: #151515;
 	color: #E6E6E6;
+	transform: scale(1.07);
 }
 
 #projects_color_bar {
@@ -104,17 +126,19 @@
 }
 
 .toolsListing {
-	width: 300px;
-	height: 400px;
-	background-color: #505050;
+	width: 350px;
+	height: 360px;
+	background-color: #404040;
 	margin: 30px 50px;
-	border-radius: 70px;
+	border-radius: 30px;
 	overflow: hidden;
-	border: 4px solid #505050;
+	border: 2px solid #999999;
 	text-align: center;
+	
 	box-shadow: 0px 15px 20px 3px rgba(0,0,0,1);
 	-webkit-box-shadow: 0px 15px 20px 3px rgba(0,0,0,1);
 	-moz-box-shadow: 0px 15px 20px 3px rgba(0,0,0,1);
+	
 	-webkit-transition: all 0.2s ease;
     	-moz-transition: all 0.2s ease;
     	-o-transition: all 0.2s ease;
@@ -127,25 +151,48 @@
 	-webkit-box-shadow: 0px 15px 35px 4px rgba(0,0,0,1);
 	-moz-box-shadow: 0px 15px 35px 4px rgba(0,0,0,1);
 	transform: translate(0px,-15px);
-	background-color: #606060;
-	border: 4px solid #606060;
+	background-color: #555555;
+	border: 2px solid #ffffff;
 }
 
 .toolsListingImageBox {
-	height: 200px;
-	width: 100%;
-	display: inline-block;
-	
+  height: 150px;
+  width: 100%;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  overflow: hidden;           
 }
 
-.toolsListingImage {
-	margin-top:10px;
-	width: 100%;
-	
+
+.toolsListingImageBox img {
+	object-fit: cover;       
+	width: 100%;                 
+	height: 100%;   
 }
 
-.toolsListingDescriptionBox {
-	padding: 10px;
+
+.toolsListing desc {
+	display: block;
+	padding: 15px;
+	text-align: left;
+	color: #E9E9E9;
+	font-size: 16px;
+}
+
+.toolsListing rel {
+	display: block;
+	padding: 5px;
+	margin: 10px auto;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #E0E0E0;
+	font-size: 14px;
+	background-color: #323232;
+	border-radius: 100px;
+	border: 1px solid #999999;
+	width: 200px;
+
 }
 
 
@@ -156,6 +203,15 @@
 
 #tools_Raajjefonts {
 	background-color: #FBF8F3;
+}
+
+#tools_ROSET {
+	background-color: #121212;
+}
+
+#tools_ROSET img {
+	width: 90%;
+	height: auto;
 }
 
 /* Mobile */
@@ -198,6 +254,11 @@
 	
 	#homePageWallpaper_serperator {
 	display: none;
+	}
+	
+	.toolsListing {
+		width: 300px;
+		height: 380px;
 	}
 }
 

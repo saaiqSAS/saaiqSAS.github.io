@@ -222,6 +222,11 @@ hr {
 	background-color: #E6E6E6;
 }
 
+#width_restrictor, .width_restrictor {
+	max-width: 1480px;
+	margin: 0px auto;
+}
+
 .right_container {
 	width: calc(100% - 70px);
 	margin: 0px 0px 0px 70px;
@@ -243,9 +248,9 @@ hr {
 .center_container {
 	background-color: #151515;
 	width: calc(100% - 140px);
-	margin: 70px 70px 0px 70px;
 	border-radius: 70px 70px 70px 70px;
 	overflow: hidden;
+	margin: 70px auto;
 }
 
 .container_color_bar {
@@ -258,6 +263,7 @@ hr {
 	background-color: #151515;
 	width:100%;
 	padding-bottom: 20px;
+	
 }
 
 .container_heading {
@@ -366,28 +372,28 @@ hr {
 	float: bottom;
 }
 
+.container_extra_info {
+	font-size: 14px;
+	width: 90%;
+	margin: 20px auto;
+	font-family: 'JetBrainsMono-Regular';
+	color: #999999;
+	text-align: center;
+}
+
 
 .VariableGrid {
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	justify-content: center;
 	align-content: center;
-	
+	gap: 5px;
+	padding: 10px;
+	margin: 0 auto;
+	width: auto; 
 }
 
-@media screen and (min-width: 1700px) {
-	.VariableGrid {
-		display: grid;
-		grid-template-columns: auto auto auto;
-	}
-}
 
-@media screen and (min-width: 1000px) and (max-width: 1700px) {
-	.VariableGrid {
-		display: grid;
-		grid-template-columns: auto auto;
-	}
-}
 
 .1Grid {
 	display: grid;
@@ -558,6 +564,13 @@ hr {
 	opacity: 0;
 	animation: fade_in_up 0.4s forwards;
 	animation-delay: 0.6s;
+}
+
+#cat_5 {
+	transform: translate(0, 80px);
+	opacity: 0;
+	animation: fade_in_up 0.4s forwards;
+	animation-delay: 0.7s;
 }
 
 @keyframes fade_in_up {
