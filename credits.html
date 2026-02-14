@@ -152,6 +152,8 @@
 					
 					<p class="buttons" id="sas-roset-button"> SAS-ROSET </p>
 					
+					<p class="buttons" id="purplekrypt-button"> PurpleKrypt </p>
+					
 					<p class="gold_button" id="special-button"> Special Thanks </p>
 					
 					<br/>
@@ -166,12 +168,12 @@
 				
 				
 				<div class="right_container" id="website">
-					<div class="container_color_bar" style=""></div>
+					<div class="container_color_bar" style="background-color: #660099"></div>
 					
 					<div class="container_view">
 						<div>
 							<p class="container_heading">saaiqSAS Website</p>
-							<div class="container_heading_underline" style=""></div>
+							<div class="container_heading_underline" style="background-color: #660099"></div>
 						</div>
 						
 						<p class="container_description_subheading">
@@ -389,9 +391,66 @@
 				</div>
 				
 				
-				<svg width="70" height="70" xmlns="http://www.w3.org/2000/svg"  style="float:left margin-left: calc(100% - 70px)"" > <!-- left bottom -->
+				<svg width="70" height="70" xmlns="http://www.w3.org/2000/svg"  style="float:left" > <!-- left bottom -->
 				  <path d="M0,0 L0,70 A70,70 0 0 1 70,0 L0,0" fill="#151515" />
 				</svg>
+				<svg width="70" height="70" xmlns="http://www.w3.org/2000/svg" style="float:right;"> <!-- right top -->
+				  <path d="M0,0 L0,70 A70,70 0 0 1 70,0 L0,0" fill="#151515" transform="rotate(180 35 35)" />
+				</svg>
+				
+				
+				<div class="right_container" id="purplekrypt">
+					<div class="container_color_bar" style="background-color:#9900cc"></div>
+					
+					<div class="container_view">
+						<div>
+							<p class="container_heading">PurpleKrypt</p>
+							<div class="container_heading_underline" style="background-color:#9900cc"></div>
+						</div>
+						
+						<p class="container_description_subheading">
+							Developer:
+						</p>
+						
+						<p class="container_description_points">
+							  ⚪  <purple>saaiqSAS</purple>	
+						</p>
+						
+						<p class="container_description_subheading">
+							Design Consultants:
+						</p>
+						
+						<p class="container_description_points">
+							  ⚪   <gold>Ismail Arham Haleem</gold>	 
+						</p>
+						
+						<p class="container_description_points">
+							  ⚪  <gold>Dhaaee Abdulla Nashith </gold>			
+						</p>
+						
+						<p class="container_description_subheading">
+							Hardware Support:
+						</p>
+						
+						<p class="container_description_points">
+							  ⚪  <gold>Dhaaee Abdulla Nashith </gold>			
+						</p>
+						
+					
+					
+						<br/>
+						<br/>
+					</div>
+				</div>
+				
+				
+				<svg width="70" height="70" xmlns="http://www.w3.org/2000/svg" style="float:right;"> <!-- right bottom -->
+				  <path d="M0,0 L0,70 A70,70 0 0 1 70,0 L0,0" fill="#151515" transform="rotate(90 35 35)" />
+				</svg>
+			
+				
+				
+				
 				
 				
 				
@@ -467,6 +526,15 @@
 
 		sas_roset_button.addEventListener('click', () => {
 		  sas_roset.scrollIntoView({ behavior: 'smooth' });
+		});
+		
+		
+		
+		const purplekrypt_button = document.getElementById('purplekrypt-button');
+		const purplekrypt = document.getElementById('purplekrypt');
+
+		purplekrypt_button.addEventListener('click', () => {
+		  purplekrypt.scrollIntoView({ behavior: 'smooth' });
 		});
 		
 		// Scroll
