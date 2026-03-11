@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> WD-1 Certificate Verification | saaiqSAS </title>
+			<link data-default-icon="../../imgs/favicon.png" rel="icon" sizes="192x192" href="../../imgs/favicon.png" />
+			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
+			<meta charset="utf-8">
+
+		</head>
+		
+		<link rel="stylesheet" href="../../styles/fonts.css"/>
+		<link rel="stylesheet" href="../../styles/universal.css"/>
+		<link rel="stylesheet" href="../../styles/tools.css"/>
+		<link rel="stylesheet" href="styles.css"/>
+
+		
+		<body>
+			<div id="navigationBar">
+						<a href="../../index.html">
+							<div id="nav_saaiqSASBox">
+								<p id="nav_saaiqSAS">saaiqSAS</p>
+								<div id="nav_saaiqSAS_underline"></div>
+							</div>
+						</a>
+						
+						<div id="nav_buttons_box">
+							<a href="../../about_me.html">
+								<p class="nav_buttons"> About_Me </p>
+							</a>
+							
+							<a href="../../index.html#projects">
+								<p class="nav_buttons"> Projects </p>
+							</a>
+							
+							<a href="https://github.com/saaiqSAS">
+								<p class="nav_buttons"> GitHub </p>
+							</a>
+						</div>
+					</div>
+			<main>
+			
+				<div class="center_container">
+					<p class="container_heading">WD-1<w> <br/>Certificate Verification </w></p>
+					<div class="container_heading_underline" style="background-color: #9900cc"></div>
+					
+					<p id="version">Please enter the verification code found on your certificate:</p>
+					
+					<div id="toolBar">
+						<input type="text" id="v_code" value="" placeholder="Enter code here (e.g., XQPSBE)"/>
+						<button id="checkBtn" onclick="checkCode()">Check</button>
+					</div>
+					
+					
+					<br/>
+					<br/>
+					
+					
+				</div>
+				
+				<div class="center_container" id="check_box">
+				<p id="check_text" ></p>
+				</div>
+				
+				<div class="center_container" id="detes">
+					<p class="container_heading">About Course </p>
+					<div class="container_heading_underline" style="background-color: #9900cc"></div>
+					<br/>
+				
+					<p>
+					The <b>WD-1 (Introduction to Website and Web Application Development)</b> online course
+					provides a beginner-friendly introduction to modern web development. 
+					It covers the fundamental concepts of <b>HTML, CSS, and basic JavaScript</b>, 
+					allowing students with no prior programming experience to understand how websites are built and function on the Internet.
+					</p>
+
+					<p>
+						The course is designed for absolute beginners and is delivered through live online sessions conducted via an online meeting platform. 
+						The total instructional time is generally up to <b>10 hours</b>, spread across a period of two weeks. 
+						The course is instructed by <b>saaiqSAS</b>.
+					</p>
+
+					<p><b>Course Topics Include (but are not limited to):</b></p>
+
+					<ul>
+					<li>Basic concepts of operating systems, web browsers, web servers, and how websites operate on the Internet</li>
+					<li>Understanding file extensions and basic file extension manipulation for web development tasks</li>
+					<li>The basic structure and format of an HTML document</li>
+					<li>Common HTML elements including <b>html, body, footer, p, h1, input, br, link, a, img, div,</b> and <b>b</b></li>
+					<li>Fundamental CSS concepts and commonly used styling properties</li>
+					<li>Understanding and applying hexadecimal color codes</li>
+					<li>Using CSS hover effects for interactive design</li>
+					<li>Introduction to JavaScript syntax, data types, variables, operators, decision making, and functions</li>
+					<li>Basic manipulation of the Document Object Model (DOM) using JavaScript</li>
+					<li>Managing HTML, CSS, and JavaScript in separate files and organizing project directories</li>
+					<li>Basic web page design principles and introductory user interface (UI) design</li>
+					<li>Introduction to publishing websites using third-party web hosting services</li>
+					</ul>
+					
+					<br/>
+					<br/>
+
+				</div>
+				
+				
+			</main>
+			
+			<script type="text/javascript" src="script.js"></script>
+			
+			<footer>
+				<div class="footer_container">
+					<p id="copyrights">Copyrights (©) 2022-Present saaiqSAS</p>
+				</div>
+			</footer>
+		</body>
+		
+		<script type="text/javascript">
+		// Copyrights
+			var currentYear = new Date().getFullYear();
+			document.getElementById('copyrights').textContent = "Copyrights (©) 2022-"+currentYear+" saaiqSAS";
+		</script>
+		
+	</html>
