@@ -7,7 +7,9 @@ const z = document.getElementById('check_box');
 const p = [
   { c: "TKQUVLRQ", i: "A381149", d: "19th March 2026" },
   { c: "BKJUQYHL", i: "A386117", d: "19th March 2026" },
-  { c: "JHWOPIMB", i: "A391310", d: "19th March 2026" }
+  { c: "JHWOPIMB", i: "A391310", d: "19th March 2026" },
+  { c: "YDIYERYD", i: "A073228", d: "9th April 2026" },
+  { c: "GYZYNANC", i: "A362585", d: "9th April 2026" }
   
 ];
 		
@@ -57,5 +59,3 @@ function gc() {
   } while (p.some(item => item.c === c));
   return c;
 }
-
-
