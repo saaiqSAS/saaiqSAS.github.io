@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> LX-1 Certificate Verification | saaiqSAS </title>
+			<link data-default-icon="../../imgs/favicon.png" rel="icon" sizes="192x192" href="../../imgs/favicon.png" />
+			<meta name="viewport" content="width=device-width, initial-scale=0.8, shrink-to-fit=yes">
+			<meta charset="utf-8">
+
+		</head>
+		
+		<link rel="stylesheet" href="../../styles/fonts.css"/>
+		<link rel="stylesheet" href="../../styles/universal.css"/>
+		<link rel="stylesheet" href="../../styles/tools.css"/>
+		<link rel="stylesheet" href="styles.css"/>
+
+		
+		<body>
+			<div id="navigationBar">
+						<a href="../../index.html">
+							<div id="nav_saaiqSASBox">
+								<p id="nav_saaiqSAS">saaiqSAS</p>
+								<div id="nav_saaiqSAS_underline"></div>
+							</div>
+						</a>
+						
+						<div id="nav_buttons_box">
+							<a href="../../about_me.html">
+								<p class="nav_buttons"> About_Me </p>
+							</a>
+							
+							<a href="../../index.html#projects">
+								<p class="nav_buttons"> Projects </p>
+							</a>
+							
+							<a href="https://github.com/saaiqSAS">
+								<p class="nav_buttons"> GitHub </p>
+							</a>
+						</div>
+					</div>
+			<main>
+			
+				<div class="center_container">
+					<p class="container_heading">LX-1<w> <br/>Certificate Verification </w></p>
+					<div class="container_heading_underline" style="background-color: #9900cc"></div>
+					
+					<p id="version">Please enter the verification code found on your certificate:</p>
+					
+					<div id="toolBar">
+						<input type="text" id="v_code" value="" placeholder="Enter code here (e.g., XQPSBE)"/>
+						<button id="checkBtn" onclick="checkCode()">Check</button>
+					</div>
+					
+					
+					<br/>
+					<br/>
+					
+					
+				</div>
+				
+				<div class="center_container" id="check_box">
+				<p id="check_text" ></p>
+				</div>
+				
+				<div class="center_container" id="detes">
+					<p class="container_heading">Course Details</p>
+					<div class="container_heading_underline" style="background-color: #9900cc"></div>
+					<br/>
+				
+					<p>
+					The <b>LX-1 (Introduction to Linux)</b> online training course
+					covers the very basics of Linux, virtual machines and cyber security.
+					</p>
+
+					<p>
+					This course is designed for absolute beginners and is delivered through live online sessions conducted via an online meeting platform. 
+					The total instructional time is up to <b>5 hours</b>, spread over a period of one week. 
+					The course is taught by <b>saaiqSAS</b>.
+					</p>
+
+					<p><b>Course Topics Include (but are not limited to):</b></p>
+
+					<ul>
+					<li>General structure of a computer system.</li>
+					<li>Basic concepts of operating systems.</li>
+					<li>Understanding the concept of open-source software.</li>
+					<li>Understanding what Linux is and the different methods to set it up.</li>
+					<li>Understanding virtualization technology and how it is used.</li>
+					<li>Installing Linux on a virtual machine.</li>
+					<li>Using the Linux graphical interface.</li>
+					<li>Using the Linux command-line interface.</li>
+					<li>Understanding the structure of commands, including parameters and inputs.</li>
+					<li>Introduction to basic office and graphics software on Linux.</li>
+					<li>Installing and updating software packages using the Linux terminal.</li>
+					<li>Basic concepts of cybersecurity and penetration testing.</li>
+					<li>Introduction to OSINT and OSINT tools.</li>
+					<li>Introduction to Linux network tools.</li>
+					</ul>
+					
+					<br/>
+					<br/>
+
+				</div>
+				
+				
+			</main>
+			
+			<script type="text/javascript" src="script.js"></script>
+			
+			<footer>
+				<div class="footer_container">
+					<p id="copyrights">Copyrights (©) 2022-Present saaiqSAS</p>
+				</div>
+			</footer>
+		</body>
+		
+		<script type="text/javascript">
+		// Copyrights
+			var currentYear = new Date().getFullYear();
+			document.getElementById('copyrights').textContent = "Copyrights (©) 2022-"+currentYear+" saaiqSAS";
+		</script>
+		
+	</html>
