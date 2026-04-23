@@ -5,9 +5,9 @@ const z = document.getElementById('check_box');
 // the data listed in the following object array are no secret,
 // hence kept in plain text.
 const p = [
-  { c: "1", i: "A", d: "23th April 2026" },
-  { c: "2", i: "A", d: "23th April 2026" },
-  { c: "3", i: "A", d: "23th April 2026" }
+  { c: "OYEIINOS", i: "A391310", d: "23th April 2026" },
+  { c: "HCPIERMK", i: "A381149", d: "23th April 2026" },
+  { c: "TBAYUTCB", i: "A348152", d: "23th April 2026" }
   
 ];
 		
@@ -55,5 +55,5 @@ function gc() {
     }
     c = q;
   } while (p.some(item => item.c === c));
-  return c;
+  console.log(c);
 }
